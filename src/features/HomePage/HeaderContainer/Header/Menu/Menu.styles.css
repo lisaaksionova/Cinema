@@ -1,0 +1,19 @@
+.menu-button {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin: 12px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.icon {
+    font-size: 24px;
+    color: #ffffff94;
+}
+
+.menu-button:hover {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border: 0.4px solid #ffffff94 !important;
+    cursor: pointer;
+}

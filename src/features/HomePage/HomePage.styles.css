@@ -1,0 +1,46 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Задаємо висоту на всю висоту вікна */
+    position: relative; /* Встановлюємо позицію для контейнера */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Початкова прозорість */
+    }
+    100% {
+        opacity: 1; /* Кінцева прозорість */
+    }
+}
+
+.film-image {
+    position: absolute; /* Абсолютне позиціонування */
+    top: 0; /* Вирівнюємо до верхньої частини */
+    left: 0; /* Вирівнюємо до лівої частини */
+    width: 100%; /* Ширина на всю ширину контейнера */
+    height: 100%; /* Висота на всю висоту контейнера */
+    object-fit: cover; /* Зберігаємо пропорції зображення */
+    z-index: -2; /* Встановлюємо зображення під іншими елементами */
+    animation-name: fadeIn; /* Анімація появи */
+    animation-duration: 1s; /* Тривалість анімації */
+}
+
+.image-overlay {
+    position: absolute; /* Абсолютне позиціонування */
+    top: 0; /* Вирівнюємо до верхньої частини */
+    left: 0; /* Вирівнюємо до лівої частини */
+    width: 100%; /* Ширина на всю ширину контейнера */
+    height: 100%; /* Висота на всю висоту контейнера */
+    background: rgba(0, 0, 0, 0.5); /* Чорне затемнення з прозорістю */
+    z-index: -1; /* Піднімаємо над фоном */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
