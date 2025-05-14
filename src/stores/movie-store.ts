@@ -3,6 +3,7 @@ import { Movie } from "../models/movie";
 
 class MovieStore {
   movies: Movie[] = [];
+  filteredMovies: Movie[] = [];
   currentMovie: Movie | null = null;
 
   constructor() {
@@ -24,21 +25,29 @@ class MovieStore {
             this.movies.push(movie);
           }
         })});
-      this.currentMovie = this.movies[0] || null; // Set the first movie as the current movie
+        this.filteredMovies = this.movies; // Initialize filteredMovies with all movies
+      this.currentMovie = this.filteredMovies[0] || null; // Set the first movie as the current movie
     } catch (error) {
       console.error("Failed to load movies:", error);
     }
   }
 
-  getMovies() {
+  filterMovies = (searchTerm: string) => {
+    this.filteredMovies = this.movies.filter((movie) =>
+      movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    this.currentMovie = this.filteredMovies[0] || null; // Set the first movie from the filtered list as the current movie
+  }
+
+  getMovies = () => {
     return this.movies;
   }
 
-  getMovieCount() {
-    return 10;
+  getMovieCount = () =>  {
+    return this.movies.length;
   }
 
-  getMovieByIndex(index: number) {
+  getMovieByIndex = (index: number) => {
     return this.movies[index] || null;
   }
 

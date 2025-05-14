@@ -2,21 +2,6 @@
     "movies": [
       {
         "id": 1,
-        "image": "/src/data/images/image1.avif",
-        "title": "Oppenheimer",
-        "description": "Історія творця атомної бомби Дж. Роберта Оппенгеймера.",
-        "imdb": 8.4,
-        "tomatoes": 93,
-        "year": 2023,
-        "genre": "Історична драма",
-        "duration": 180,
-        "age": 16,
-        "technology": ["2D", "IMAX"],
-        "accessibility": "Доступне кіно",
-        "cinemas": [1, 2]
-      },
-      {
-        "id": 2,
         "image": "/src/data/images/image2.jpg",
         "title": "Dune: Part Two",
         "description": "Продовження епічної історії Пола Атріда на планеті Арракіс.",
@@ -31,7 +16,7 @@
         "cinemas": [2, 3]
       },
       {
-        "id": 3,
+        "id": 2,
         "image": "/src/data/images/image3.jpg",
         "title": "Barbie",
         "description": "Фантастичне та комедійне переосмислення класичної ляльки.",
@@ -46,7 +31,7 @@
         "cinemas": [1, 3]
       },
       {
-        "id": 4,
+        "id": 3,
         "image": "/src/data/images/image4.jpg",
         "title": "The Batman",
         "description": "Бетмен розслідує серію вбивств у Ґотемі, стикаючись із Загадником.",
@@ -61,7 +46,7 @@
         "cinemas": [1, 2]
       },
       {
-        "id": 5,
+        "id": 4,
         "image": "/src/data/images/image5.jpg",
         "title": "Avatar: The Way of Water",
         "description": "Продовження пригод на Пандорі, цього разу під водою.",
@@ -76,7 +61,7 @@
         "cinemas": [2, 3]
       },
       {
-        "id": 6,
+        "id": 5,
         "image": "/src/data/images/image6.jpg",
         "title": "Spider-Man: No Way Home",
         "description": "Пітер Паркер намагається виправити наслідки розкриття своєї особистості.",
@@ -91,7 +76,7 @@
         "cinemas": [1, 3]
       },
       {
-        "id": 7,
+        "id": 6,
         "image": "/src/data/images/image7.jpg",
         "title": "La La Land",
         "description": "Музична історія про любов джазового музиканта і акторки.",
@@ -106,7 +91,7 @@
         "cinemas": [1]
       },
       {
-        "id": 8,
+        "id": 7,
         "image": "/src/data/images/image8.jpg",
         "title": "The Grand Budapest Hotel",
         "description": "Ексцентрична комедія про пригоди консьєржа та хлопчика-стажера.",
@@ -121,7 +106,7 @@
         "cinemas": [2]
       },
       {
-        "id": 9,
+        "id": 8,
         "image": "/src/data/images/image9.jpg",
         "title": "Interstellar",
         "description": "Команда дослідників вирушає через чорну діру в пошуках нового дому.",
@@ -136,7 +121,7 @@
         "cinemas": [1, 2, 3]
       },
       {
-        "id": 10,
+        "id": 9,
         "image": "/src/data/images/image10.jpg",
         "title": "The Godfather",
         "description": "Історія мафіозної родини Корлеоне в США.",

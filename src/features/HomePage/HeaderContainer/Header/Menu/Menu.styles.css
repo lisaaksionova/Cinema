@@ -17,3 +17,21 @@
     border: 0.4px solid #ffffff94 !important;
     cursor: pointer;
 }
+
+.search-input {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border: none;
+    border-radius: 30px;
+    margin: 12px;
+    height: 48px;
+    color: #ffffff94 !important;
+} 
+
+.search-input input::placeholder {
+    color: #ffffff94 !important;
+}
+
+.menu-container {
+    display: flex;
+}
