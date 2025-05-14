@@ -35,3 +35,17 @@
 .menu-container {
     display: flex;
 }
+
+@media (max-width: 768px) {
+    .menu-container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #001f3f; /* темно-синій */
+      justify-content: center;
+      padding: 8px 0;
+      z-index: 1000;
+    }
+  }
+  

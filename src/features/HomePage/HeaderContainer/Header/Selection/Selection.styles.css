@@ -17,3 +17,26 @@
 
 .selection-container h3:hover {
     cursor: pointer;}
+
+    @media (max-width: 768px) {
+        .selection-container {
+          justify-content: center;
+          align-items: center;
+          padding: 12px ;
+          width: 100%;
+        }
+      
+        .selection-container h3 {
+          margin: 6px 6px;
+          font-size: 18px;
+          line-height: 24px;
+          padding-bottom: 6px;
+          text-align: center;
+        }
+      
+        .active {
+          border-bottom: 3px solid #fed530;
+        }
+      }
+      
+      

@@ -85,3 +85,10 @@
     margin-top: 8px;
     gap: 8px;
 }
+
+@media (max-width: 728px) {
+    .session-details-container {
+      display: none;
+    }
+  }
+  

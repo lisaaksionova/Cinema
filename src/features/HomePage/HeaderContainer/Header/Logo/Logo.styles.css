@@ -50,4 +50,19 @@
     background: none !important;
   }
   
+  @media (max-width: 768px) {
+    .logo-container {
+      padding-left: 12px;
+    }
+  
+    .logo-container svg {
+      width: 24px;
+      height: 24px;
+    }
+  
+    .select {
+      display: none;
+    }
+  }
+  
   

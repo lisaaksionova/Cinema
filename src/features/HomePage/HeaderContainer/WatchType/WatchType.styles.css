@@ -47,3 +47,31 @@
     background-color: rgba(0, 0, 0, 0.2) !important;
     cursor: pointer;
   }
+
+  @media (max-width: 768px) {
+    .watch-type-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 0;
+    }
+  
+    .watch-type-list {
+      display: flex;
+      align-items: center;
+      padding: 0;
+    }
+  
+    .watch-type-list li {
+      font-size: 18px;
+      margin: 0 6px;
+      color: #ffffff94;
+      font-stretch: condensed;
+      text-align: center;
+    }
+  
+    .watch-type-button {
+      display: none;
+    }
+  }
+  
